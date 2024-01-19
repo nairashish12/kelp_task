@@ -31,7 +31,7 @@ of all users and print following report on console.
 
 1) Clone from github
    
-2) Navigate to the folder using the folowing command: ```cd kelp_task```
+2) Navigate to the folder using the following command: ```cd kelp_task```
    
 3) Run the following command: ```npm install```
 4) Create a .env file with the following fields
