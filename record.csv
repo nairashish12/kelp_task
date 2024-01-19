@@ -1,0 +1,4 @@
+name.firstName,name.lastName,age,address.line1,address.line2,address.city,address.state,gender,height
+Rohit,Prasad,35,A-563 Rakshak Society,New Pune Road,Pune,Maharashtra,male,
+Ashish,Nair,19,A-563 Rakshak Society,New Pune Road,Pune,Maharashtra,male,
+Test,User,42,A-563 Rakshak Society,New Pune Road,Pune,Maharashtra,,6
