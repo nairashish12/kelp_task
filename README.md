@@ -51,7 +51,8 @@ of all users and print following report on console.
     address jsonb NULL,
     additional_info jsonb NULL,
     id serial4 NOT NULL
-    );```
+    );
+    ```
 6) Run the application using the following command: ```node index.js```
 7) Open your browser or postman & hit the following api url: ```http://localhost:3000/convert-csv```
 
