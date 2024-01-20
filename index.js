@@ -62,8 +62,14 @@ const retrieveData = async() => {
 }
 
 app.get('/convert-csv', async (req, res) => {
-    insertData();
-    res.send("Data uploaded successfully!")
+    try {
+        insertData();
+        res.send("Data uploaded successfully!")
+    }
+    catch(e) {
+        console.log(e)
+        res.send("Oops! Something went wrong.")
+    }
 })
 
 app.listen(port, () => {
